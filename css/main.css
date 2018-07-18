@@ -1,0 +1,131 @@
+/* line 1, C:/Users/Josue/Desktop/responsiveform/scss/base/_base.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 5, C:/Users/Josue/Desktop/responsiveform/scss/base/_base.scss */
+body {
+  background: #f0b4ff;
+  color: #485e74;
+  line-height: 1.6;
+  padding: 1em;
+}
+
+/* line 11, C:/Users/Josue/Desktop/responsiveform/scss/base/_base.scss */
+input, label {
+  display: block;
+}
+
+/* line 15, C:/Users/Josue/Desktop/responsiveform/scss/base/_base.scss */
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+
+/* line 22, C:/Users/Josue/Desktop/responsiveform/scss/base/_base.scss */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* line 27, C:/Users/Josue/Desktop/responsiveform/scss/base/_base.scss */
+.brand {
+  text-align: center !important;
+}
+
+/* line 31, C:/Users/Josue/Desktop/responsiveform/scss/base/_base.scss */
+.plusGrand {
+  font-size: 50px;
+  font-style: oblique;
+  text-align: center;
+}
+
+/* line 38, C:/Users/Josue/Desktop/responsiveform/scss/base/_base.scss */
+.full1 {
+  width: 100%;
+}
+
+/* line 42, C:/Users/Josue/Desktop/responsiveform/scss/base/_base.scss */
+.wrapper {
+  box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
+}
+
+/* line 46, C:/Users/Josue/Desktop/responsiveform/scss/base/_base.scss */
+.wrapper > * {
+  padding: 1em;
+}
+
+/* line 50, C:/Users/Josue/Desktop/responsiveform/scss/base/_base.scss */
+.company-info h3, .company-info ul {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+/* line 63, C:/Users/Josue/Desktop/responsiveform/scss/base/_base.scss */
+.contact {
+  background: #f9feff;
+}
+
+/* line 70, C:/Users/Josue/Desktop/responsiveform/scss/base/_base.scss */
+.contact form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+/* line 75, C:/Users/Josue/Desktop/responsiveform/scss/base/_base.scss */
+.contact form button {
+  background: #f0b4ff;
+  border: 0;
+  text-transform: uppercase;
+}
+
+/* line 81, C:/Users/Josue/Desktop/responsiveform/scss/base/_base.scss */
+.contact form label {
+  display: block;
+}
+
+/* line 84, C:/Users/Josue/Desktop/responsiveform/scss/base/_base.scss */
+.contact form p {
+  margin: 0;
+}
+
+/* line 88, C:/Users/Josue/Desktop/responsiveform/scss/base/_base.scss */
+.contact form .full {
+  grid-column: 1 / 3;
+}
+
+/* line 93, C:/Users/Josue/Desktop/responsiveform/scss/base/_base.scss */
+.contact form button, .contact form input, .contact form textarea {
+  width: 100%;
+  padding: 1em;
+  border: 1px solid #f0b4ff;
+  transition: all 2s ease-out;
+}
+
+/* line 102, C:/Users/Josue/Desktop/responsiveform/scss/base/_base.scss */
+.contact form button:hover, .contact form button:focus {
+  background: #ce32f5;
+  color: #fff;
+  outline: 0;
+}
+
+@media (min-width: 700px) {
+  /* line 112, C:/Users/Josue/Desktop/responsiveform/scss/base/_base.scss */
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  /* line 116, C:/Users/Josue/Desktop/responsiveform/scss/base/_base.scss */
+  .wrapper > * {
+    padding: 2em;
+  }
+  /* line 119, C:/Users/Josue/Desktop/responsiveform/scss/base/_base.scss */
+  .company-info h3, .company-info ul, .brand {
+    text-align: left;
+  }
+}
+
+/*# sourceMappingURL=../css/main.map */

@@ -1,0 +1,32 @@
+{
+	"version": 3,
+	"file": "../scss/main.css",
+	"sources": [
+		"../scss/main.scss",
+		"../scss/base/_variables.scss",
+		"../scss/base/_mixins.scss",
+		"../scss/base/_reset.scss",
+		"../scss/base/_base.scss",
+		"../scss/layout/_header.scss",
+		"../scss/layout/_footer.scss",
+		"../scss/modules/_typography.scss",
+		"../scss/modules/_buttons.scss",
+		"../scss/modules/_blocks.scss",
+		"../scss/modules/_components.scss"
+	],
+	"sourcesContent": [
+		"@import 'base/_variables.scss';\r\n@import 'base/_mixins.scss';\r\n@import 'base/_reset.scss';\r\n@import 'base/_base.scss';\r\n\r\n@import 'layout/_header.scss';\r\n@import 'layout/_footer.scss';\r\n\r\n@import 'modules/_typography.scss';\r\n@import 'modules/_buttons.scss';\r\n@import 'modules/_blocks.scss';\r\n@import 'modules/_components.scss';\r\n",
+		"",
+		"",
+		"",
+		"*{\r\n  box-sizing: border-box;\r\n}\r\n\r\nbody{ background:rgb(240, 180, 255);\r\n      color: #485e74;\r\n      line-height: 1.6;\r\n      padding: 1em;\r\n    }\r\n\r\ninput, label {\r\n  display: block;\r\n}\r\n\r\n.container {\r\n  max-width: 1170px;\r\n  margin-left: auto;\r\n  margin-right: auto;\r\n  padding: 1em;\r\n}\r\n\r\nul {\r\n  list-style: none;\r\n  padding: 0;\r\n}\r\n\r\n.brand {\r\n  text-align: center !important;\r\n}\r\n\r\n.plusGrand {\r\n  font-size: 50px;\r\n  font-style: oblique;\r\n  text-align: center;\r\n\r\n}\r\n\r\n.full1 {\r\n  width: 100%;\r\n}\r\n\r\n.wrapper {\r\n  box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);\r\n}\r\n\r\n.wrapper > * {\r\n  padding: 1em;\r\n}\r\n\r\n.company-info h3, .company-info ul{\r\n  text-align: center;\r\n  margin:0 0 1rem 0;\r\n}\r\n// .company-info {\r\n//   background: #c9e6ff;\r\n//\r\n//   h3, ul {\r\n//     text-align: center;\r\n//     margin: 0 0 1rem 0;\r\n//   }\r\n// }\r\n\r\n.contact {\r\n  background: #f9feff;\r\n}\r\n\r\n// FORM STYLES - INNPUTS AND WHATNOT //\r\n\r\n.contact {\r\n  form {\r\n  display:grid;\r\n  grid-template-columns: 1fr 1fr;\r\n  grid-gap: 20px;\r\n\r\n  button {\r\n    background: rgb(240, 180, 255);\r\n    border: 0;\r\n    text-transform: uppercase;\r\n  }\r\n\r\n  label {\r\n    display:block;\r\n  }\r\n  p {\r\n    margin: 0;\r\n  }\r\n\r\n  .full {\r\n    grid-column: 1 / 3;\r\n  }\r\n\r\n\r\n  button, input, textarea {\r\n    width: 100%;\r\n    padding: 1em;\r\n    border: 1px solid rgb(240, 180, 255);\r\n    transition: all 2s ease-out;;\r\n  }\r\n}\r\n}\r\n\r\n.contact form button:hover, .contact form button:focus {\r\n  background: rgb(206, 50, 245);\r\n  color:#fff;\r\n  outline:0;\r\n\r\n}\r\n\r\n// LARGE SCREEN MEDIA QUERIES //\r\n\r\n@media(min-width:700px) {\r\n  .wrapper {\r\n    display: grid;\r\n    grid-template-columns: 1fr 2fr;\r\n  }\r\n  .wrapper > * {\r\n    padding:2em;\r\n  }\r\n  .company-info h3, .company-info ul, .brand {\r\n    text-align: left;\r\n  }\r\n}\r\n",
+		"",
+		"",
+		"",
+		"",
+		"",
+		""
+	],
+	"mappings": ";AIAA,AAAA,CAAC,CAAA;EACC,UAAU,EAAE,UAAW;CACxB;;;AAED,AAAA,IAAI,CAAA;EAAE,UAAU,EAAC,OAAG;EACd,KAAK,EAAE,OAAQ;EACf,WAAW,EAAE,GAAI;EACjB,OAAO,EAAE,GAAI;CACd;;;AAEL,AAAA,KAAK,EAAE,AAAA,KAAK,CAAC;EACX,OAAO,EAAE,KAAM;CAChB;;;AAED,AAAA,UAAU,CAAC;EACT,SAAS,EAAE,MAAO;EAClB,WAAW,EAAE,IAAK;EAClB,YAAY,EAAE,IAAK;EACnB,OAAO,EAAE,GAAI;CACd;;;AAED,AAAA,EAAE,CAAC;EACD,UAAU,EAAE,IAAK;EACjB,OAAO,EAAE,CAAE;CACZ;;;AAED,AAAA,MAAM,CAAC;EACL,UAAU,EAAE,iBAAkB;CAC/B;;;AAED,AAAA,UAAU,CAAC;EACT,SAAS,EAAE,IAAK;EAChB,UAAU,EAAE,OAAQ;EACpB,UAAU,EAAE,MAAO;CAEpB;;;AAED,AAAA,MAAM,CAAC;EACL,KAAK,EAAE,IAAK;CACb;;;AAED,AAAA,QAAQ,CAAC;EACP,UAAU,EAAE,CAAC,CAAC,CAAC,CAAC,IAAI,CAAC,CAAC,CAAC,sBAAI;CAC5B;;;AAED,AAAW,QAAH,GAAG,CAAC,CAAC;EACX,OAAO,EAAE,GAAI;CACd;;;AAED,AAAc,aAAD,CAAC,EAAE,EAAE,AAAc,aAAD,CAAC,EAAE,CAAA;EAChC,UAAU,EAAE,MAAO;EACnB,MAAM,EAAC,UAAW;CACnB;;;AAUD,AAAA,QAAQ,CAAC;EACP,UAAU,EAAE,OAAQ;CACrB;;;AAID,AACE,QADM,CACN,IAAI,CAAC;EACL,OAAO,EAAC,IAAK;EACb,qBAAqB,EAAE,OAAQ;EAC/B,QAAQ,EAAE,IAAK;CA0BhB;;;AA9BD,AAME,QANM,CACN,IAAI,CAKJ,MAAM,CAAC;EACL,UAAU,EAAE,OAAG;EACf,MAAM,EAAE,CAAE;EACV,cAAc,EAAE,SAAU;CAC3B;;;AAVH,AAYE,QAZM,CACN,IAAI,CAWJ,KAAK,CAAC;EACJ,OAAO,EAAC,KAAM;CACf;;;AAdH,AAeE,QAfM,CACN,IAAI,CAcJ,CAAC,CAAC;EACA,MAAM,EAAE,CAAE;CACX;;;AAjBH,AAmBE,QAnBM,CACN,IAAI,CAkBJ,KAAK,CAAC;EACJ,WAAW,EAAE,KAAM;CACpB;;;AArBH,AAwBE,QAxBM,CACN,IAAI,CAuBJ,MAAM,EAxBR,AAwBU,QAxBF,CACN,IAAI,CAuBI,KAAK,EAxBf,AAwBiB,QAxBT,CACN,IAAI,CAuBW,QAAQ,CAAC;EACtB,KAAK,EAAE,IAAK;EACZ,OAAO,EAAE,GAAI;EACb,MAAM,EAAE,GAAG,CAAC,KAAK,CAAC,OAAG;EACrB,UAAU,EAAE,eAAgB;CAC7B;;;AAIH,AAAoB,QAAZ,CAAC,IAAI,CAAC,MAAM,AAAA,MAAM,EAAE,AAAoB,QAAZ,CAAC,IAAI,CAAC,MAAM,AAAA,MAAM,CAAC;EACrD,UAAU,EAAE,OAAG;EACf,KAAK,EAAC,IAAK;EACX,OAAO,EAAC,CAAE;CAEX;;AAID,MAAM,EAAL,SAAS,EAAE,KAAK;;EACf,AAAA,QAAQ,CAAC;IACP,OAAO,EAAE,IAAK;IACd,qBAAqB,EAAE,OAAQ;GAChC;;EACD,AAAW,QAAH,GAAG,CAAC,CAAC;IACX,OAAO,EAAC,GAAI;GACb;;EACD,AAAc,aAAD,CAAC,EAAE,EAAE,AAAc,aAAD,CAAC,EAAE,EAAE,AAAA,MAAM,CAAC;IACzC,UAAU,EAAE,IAAK;GAClB",
+	"names": []
+}
